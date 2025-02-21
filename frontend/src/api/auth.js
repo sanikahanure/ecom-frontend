@@ -1,6 +1,5 @@
-const API_URL = "http://localhost:8080";
-
-export async function login(credentials) {
+const API_URL = "https://ecom-backend-xhg7.onrender.com";
+  export async function login(credentials) {
   const response = await fetch(`${API_URL}/login`, {
     method: "POST",
     headers: {
